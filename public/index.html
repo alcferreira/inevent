@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Index</title>
+  </head>
+  <body>
+  </body>
+	<script type="text/javascript">
+		(function init() {
+			if (!sessionStorage.getItem('tokenId')) return window.location = 'login.html';
+			return window.location = 'eventList.html';
+		})();
+	</script>
+</html>
